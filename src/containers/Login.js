@@ -96,7 +96,7 @@ const Login = () => {
             </Container >
             <Box position={"right"}>
             <img
-                src={movieTheaterCrop} alt="image" width={"100%"}
+                src={movieTheaterCrop} alt="signInCover" width={"100%"}
             /> 
             </Box>
         </Box>

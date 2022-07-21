@@ -38,7 +38,7 @@ const Register = () => {
         <Box display="flex" flexDirection="row">
             <Box>
             <img
-                src={happyCrop} alt="image" width={"100%"} height={707}
+                src={happyCrop} alt="signUPCover" width={"100%"} height={707}
             /> 
             </Box>
         <Container component="main" maxWidth="xs">
