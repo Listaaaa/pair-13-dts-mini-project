@@ -3,7 +3,7 @@ import { getAuth } from 'firebase/auth';
 
 // TODO: replace with your own config
 const firebaseConfig = {
-  apiKey: "AIzaSyCP13jjwT67zF6AN2M8nEocNtfk_al5H2U",
+  apiKey: process.env.REACT_APP_FIREBASE_KEY,
   authDomain: "pair-13-dts-mini-project.firebaseapp.com",
   projectId: "pair-13-dts-mini-project",
   storageBucket: "pair-13-dts-mini-project.appspot.com",
