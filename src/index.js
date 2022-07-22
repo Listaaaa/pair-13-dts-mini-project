@@ -39,9 +39,7 @@ root.render(
           </ProtectedRoute> } />
           <Route path="about" element={<About />} />
           <Route path="Description/:id" element={
-          <ProtectedRoute loginOnly={true}>
-          <Description />
-          </ProtectedRoute>} />
+          <Description />} />
           <Route path="*" element={<NotFound />} />
       </Routes>
       </ThemeProvider>
