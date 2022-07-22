@@ -48,7 +48,7 @@ const Description = () => {
                 justifyContent: 'center',}}>
             <CardMedia
                 component="img"
-                sx={{ width: 1575, height: 500, mt:1, }}
+                sx={{ width: 1200, height: 500, mt:1, }}
                 image={`${BASE_IMAGE_URL}${movies.backdrop_path}`} alt="backdrop"/>
             </Box>
             <Box sx={{
